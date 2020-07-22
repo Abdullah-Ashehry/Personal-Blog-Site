@@ -1,0 +1,39 @@
+.header {
+    grid-column: col / span 2;
+    grid-row: row;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row: 1fr;
+    padding: 20px;
+    font-size: 150%;
+  }
+  
+  .subscribe {
+    grid-column: 1;
+    grid-row: row;
+    font-size: 80%;
+    text-align: left;
+    color: grey;
+    text-decoration: underline;
+  }
+  
+  .title {
+    grid-column: 2;
+    grid-row: row;
+    font-size: 150%;
+    text-align: center;
+    text-decoration: underline;
+    color: black;
+    font-weight: bold;
+  }
+  
+  .material-icons {
+    grid-column: 3;
+    grid-row: row;
+    text-align: right;
+  }
+  
+  .material-icons:hover {
+    cursor: pointer;
+  }
